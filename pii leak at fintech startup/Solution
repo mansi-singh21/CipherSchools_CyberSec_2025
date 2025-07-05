@@ -1,0 +1,33 @@
+Q-What kind of data was compromised (identify PII)?
+The compromised data includes-
+  1- Names(PII)
+  2- Phone numbers(PII)
+  3- Aadhar Numbers(Sensitive Personally Identifiable Information – SPII)
+  4- Bank Account details (Sensitive Personally Identifiable Information – SPII)
+  All of these qulify as PII under global frameworks like GDPR.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+How could this incident have been prevented?
+This breach occured due to misconfigured AWS bucket and could have been prevented by using these security measures-
+  1-Proper Access Control Configuration: by ensuring buckets are set to private by default and using IAM policies to limit access.
+  2-Bucket Policy Audits: Regularly review of AWS bucket configurations using automated security tools.
+  3-Enable Encryption: Data at rest should be encrypted.
+  4-Use AWS Security Tools: to monitor and alert on unusual access patterns.
+  5-Developer Training: Educate teams on secure cloud practices and PII handling.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+What are the immediate and long-term measures the company must take?
+The immediate measures are-
+  1-Containment: Immediately revoke public access to the bucket and block unauthorized users.
+  2-Notify Affected Users and Authorities: Report the breach in compliance with regulatory requirements.
+  3-Conduct a Forensic Investigation: Determine the scope, timeline, and actors involved. Secure logs for further analysis.
+  4-Patch Misconfigurations: Apply least privilege access controls across all cloud resources.
+  5-Incident Documentation: Record every action for compliance and post-mortem.
+
+The long-term measures are-
+  1-Regular security audits and penetration testing: Scheduling regular audits and conducting pentests to discover vulnerabilities.
+  2-Employee Training: Conduct cloud security training, especially for DevOps teams.
+  3-Data minimization and Encryption: Store only necessary PII and making sure its encrypted and protected accordingly.
+  4-Access Management: periodically review and revoke stale access. 
