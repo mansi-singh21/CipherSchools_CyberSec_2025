@@ -1,0 +1,24 @@
+Why is a power grid classified under CII?
+A power grid is considered Critical Information Infrastructure (CII) because it supports essential services like electricity,
+healthcare, and communication. If it’s disrupted, it can lead to serious consequences like blackouts, halted emergency services,
+and economic loss. It's essential infrastructure, as recognized by India's NCIIPC (National Critical Information Infrastructure Protection Centre).
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+How do cyber threats to CII differ from threats to general IT systems?
+Differences-
+  1-Impact:CII attacks can impact public safety; IT attacks mostly affect data and business continuity.
+  2-Downtime and loss:Even minor outages in CII can be critical and incurr huge loss for nation, whereas IT systems can tolerate short downtimes and only affects the particular organization.
+  3-Security focus:CII focuses on availability and integrity; IT focuses more on confidentiality and access control.
+  4-Systems and Infrastructure:CII often involves legacy systems and human-operated interfaces, making it more vulnerable to targeted attacks, whereas IT uses modern and automated systems.
+  5-Motivation:CII often targeted by state-sponsored actors for disruption and chaos in nation; IT by criminals for financial gain and defamation.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+What steps should be taken to strengthen CII security in this context?
+  1-Awareness & Training: Train all staff, especially operational technicians, to spot phishing emails and social engineering attempts.
+  2-Email Security: Use advanced email filtering and anti-phishing tools.
+  3-Regular Patching & Updates: Fix known vulnerabilities in both IT and OT systems
+  4-Simulated Drills: Conduct cyberattack simulations to test readiness
+  5-Incident Response Plan: Have a clear recovery strategy in place to react quickly during attacks.
+
