@@ -1,0 +1,34 @@
+Classify the types of data exposed (PII or not).
+  Passwords – Yes, considered PII, as they give access to user accounts when linked with emails or phone number.
+  Messages – Yes, PII, since they can contain personal or sensitive information.
+  Location Histories – Yes, PII, as they can reveal an individual’s movements and identity.
+So, all three types of data exposed in this case qualify as Personally Identifiable Information (PII).
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+What were likely technical and human errors that caused the breach?
+Technical errors-
+  1-Weak or outdated encryption of stored passwords or messages.
+  2-Poor access controls or misconfigured databases.
+  3-Lack of multi-factor authentication (MFA) for admin or internal accounts.
+  4-No proper vulnerability management, allowing exploits via known bugs.
+  5-Insecure APIs exposing location data.
+
+Human errors-
+  1-Employees falling for phishing attacks.
+  2-Mishandling or accidentally exposing sensitive data during testing or deployment.
+  3-Inadequate security training or awareness among staff.
+  4-Not using Principle of least privilege.
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+How does this case reflect the broader need for cybersecurity?
+This case shows that even large platforms are vulnerable without strong security practices.
+Users trust platforms with their personal data—losing that trust damages reputation and invites legal action.
+It highlights the need for:
+1-End-to-end encryption
+2-Regular audits and penetration testing
+3-Strong data governance policies
+4-Security awareness training
+Overall, it proves that cybersecurity isn't optional—it’s a core requirement for any digital service handling personal data.
+
