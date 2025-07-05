@@ -1,0 +1,26 @@
+What are the cybersecurity principles violated here (CIA Triad)?
+All three pillars of CIA triad have been violated as-
+  Confidentiality: Patient records are exposed  or could be stolen by attackers. This leads to privacy violation and 
+  misuse of medical data of patients.
+  Integrity: Medical data could be tampered with or corrupted, risking patient safety.
+  Availability: Access to patient records and hospital systems is blocked, halting surgeries and operations.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+How could PII and CII be involved in this situation?
+PII (Personally Identifiable Information): Patient names, contact info, medical history, Aadhaar numbers, etc., may be 
+leaked or misused for identity theft or financial fraud.
+CII (Critical Information Infrastructure): Hospital systems that support emergency care, surgeries, and life-saving 
+equipment are considered CII since their disruption affects public health and safety making their protection a top 
+priority under national cybersecurity policies.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Propose a cybersecurity framework the hospital should adopt going forward.
+The hospital should adopt a framework like the NIST Cybersecurity Framework (CSF) focusing on:
+Identify: Map all critical assets and data flows.Understand risks and vulnerabilities.
+Protect: Use firewalls, endpoint protection, encryption, and regular access reviews.
+Detect: Set up real-time monitoring and alert systems for abnormal behavior.
+Respond: Have an incident response plan to quickly contain ransomware attacks.
+Recover: Maintain regular offline backups and test disaster recovery procedures.
+
